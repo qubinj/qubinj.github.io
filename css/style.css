@@ -1,0 +1,14 @@
+div#head{
+	background-color: #333333;
+	color: white;
+	padding:6px;
+	text-align: center;
+}
+div#head:hover{
+	background-color: #111111
+}
+.fline{
+	background-color: #666666;
+	color:white;
+	padding:3px;
+}
