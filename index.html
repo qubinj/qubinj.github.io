@@ -1,17 +1,137 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-<title>Hello World!!</title>
 <head>
-	<link rel="stylesheet" href="css/style.css">
+	<title>StreamIt</title>
+	<link rel="stylesheet" href="style.css" />
+	<meta name="description" value="Watch your favorite videos" />
+	<meta name="keywords" value="video, stream, music video, music" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Qubin Jose, FDM Group" />
 </head>
 <body>
-	<div id="head">
-		<h1>Hello World!</h1>
-	</div> 
-	<div class="fline">	
-	<h3>Welcome to Qubin's Page.</h3><br>
-	Lorem ipsum dolor sit amet.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolor consequuntur eos esse nemo ullam alias quibusdam voluptate, vel sit autem tempore temporibus cupiditate tempora saepe voluptas, libero aliquid unde aperiam. Nihil perferendis distinctio dolor, ex atque ullam illum? Qui veniam, saepe consequuntur, laborum fuga aut eligendi suscipit! Praesentium, ad!
+	<header class="header">
+		<a class="logo float-left" href="index.html">
+				<h1>StreamIt</h1>
+		</a>
+		<input type="text" placeholder="Search" >
+		<div class="float-right">
+			<button class="button">Log In</button>
+			<button class="button">Sign Up</button>
+		</div>
+	</header>
+	<div class="container">
+		<div class="sidebar">
+			<div class="sidebar-section">
+				<h3 class="sidebar-section-header">MY LIBRARY</h3>
+				<div>Favorites</div>
+				<div>Watch Later</div>
+				<div>Playlists</div>
+				<div>My Uploads</div>
+			</div>
+			<div class="sidebar-section">
+				<h3 class="sidebar-section-header">SUBSCRIPTIONS</h3>
+				<div>Content Name</div>
+				<div>Content Name</div>
+				<div>Content Name</div>
+				<div>Content Name</div>
+			</div>
+			<div class="sidebar-section">
+				<h3 class="sidebar-section-header">MORE</h3>
+				<div>Settings</div>
+				<div>Help</div>
+				<div>Feedback</div>
+			</div>
+		</div>
+		<div class="mainpage">
+			<div class="pad10">
+				<h2>Featured Video</h2>
+				<div>
+					<img class="featured-img" src="https://placeimg.com/640/360/nature">
+					<div>
+						<h3>Video Title</h3>
+						<h4>Content</h4>
+						<p>Description<p>
+					</div>
+					<div class="featured-stats clear">
+						<span>100 Plays</span><span>100 Likes</span><span>100 Comments</span>
+					</div>
+				</div>
+			</div>
+			<div class="topvids pad10">
+				<h2>Top Videos</h2>
+				<ul class="hs-wrapper float-left">
+					<li>
+						<div class="topvid-item hs-div">
+							<img src="https://placeimg.com/246/138/animals" />
+							<div class="topvid-desc">
+								<h5>Video Title</h5>
+								<h6>Content</h6>
+								<p>Description<p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="hs-div">
+							<img src="https://placeimg.com/246/138/architecture" />
+							<div class="topvid-desc">
+								<h5>Video Title</h5>
+								<h6>Content</h6>
+								<p>Description<p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="hs-div">
+							<img src="https://placeimg.com/246/138/tech" />
+							<div class="topvid-desc">
+								<h5>Video Title</h5>
+								<h6>Content</h6>
+								<p>Description<p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="todays">
+				<h2>Today's Videos</h2>
+				<div>
+					<div class="todays-item">
+						<img class="float-left" src="https://placeimg.com/246/138/people">
+						<div class="todays-desc">
+							<h5>Video Title</h5>
+							<h6>Content</h6>
+							<p>Description<p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="todays-item">
+						<img class="float-left" src="https://placeimg.com/246/138/nature">
+						<div class="todays-desc">
+							<h5>Video Title</h5>
+							<h6>Content</h6>
+							<p>Description<p>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="todays-item">
+						<img class="float-left" src="https://placeimg.com/246/138/architecture">
+						<div class="todays-desc">
+							<h5>Video Title</h5>
+							<h6>Content</h6>
+							<p>Description<p>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	<footer>
+		<a href="about.html">About</a>
+		<a href="privacy.html">Privacy</a>
+		<a href="terms.html">Terms</a>
+		<a href="contact.html">Contact</a>
+	</footer>
 </body>
 </html>
